@@ -18,10 +18,6 @@ write_dataframe_to_markdown_file(df, filename)
 ```python
 write_dataframe_to_markdown_file(df_transposed, "README.md")
 write_dataframe_to_markdown_file(df_transposed, "./directory/README.md")
-
-# OR
-write_dataframe_to_markdown_file(df=df_transposed, filename="README.md")
-write_dataframe_to_markdown_file(df=df_transposed, filename="./directory/README.md")
 ```
 
 ## What the markdown file looks like
